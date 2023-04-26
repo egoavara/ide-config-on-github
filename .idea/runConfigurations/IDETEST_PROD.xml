@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="IDETEST:PROD" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" value="prod" />
+    <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <module name="ide-config-on-github.app.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="ide.config.on.github.App" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+      <option name="Maven.BeforeRunTask" enabled="true" file="./pom.xml" goal="test" />
+    </method>
+  </configuration>
+</component>
