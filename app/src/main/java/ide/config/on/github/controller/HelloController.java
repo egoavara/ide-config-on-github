@@ -6,12 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    @Value("${idetest.whoami}")
-    private String whoami;
+  @Value("${idetest.whoami}")
+  private String whoami;
 
-    @GetMapping("/")
-    public String index() {
-        return String.format("Hello world, i am %s", whoami);
-    }
-
+  @GetMapping("/")
+  public String index() {
+    return String.format("Hello world, i am %s", whoami);
+  }
 }
